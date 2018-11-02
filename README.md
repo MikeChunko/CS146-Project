@@ -10,5 +10,5 @@ In addition, as Stevens students, there will be information on all there is to k
 * **Cassie Ball** - 
 * **[Michael Chunko](https://github.com/MikeChunko)** - HTML, CSS 
 * **Andrea Meyer** - 
-* **Sid Patel** - 
-* **Ryan Qin** - 
+* **[Sid Patel](https://github.com/Sypatel18)** - 
+* **[Ryan Qin](https://github.com/rqin00)** - 
