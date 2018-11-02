@@ -85,6 +85,6 @@ div {
 #goals ul img {
     border-radius: 50%;
     border: 5px solid #c43235;
-    max-width: 20%;
-    max-height: 20%;
+    width: 20%;
+    height: 20%;
 }
