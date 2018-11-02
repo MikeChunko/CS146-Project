@@ -1,20 +1,49 @@
 body {
-    background-image: url("https://timedotcom.files.wordpress.com/2016/07/mcdonalds-big-mac-venezuela.jpg");
-    background-size: 500px;
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #373737;
 }
 
-#navigation {
-    background-color: lightcoral;
+div {
+    padding: 50px;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navigation {
     padding: 10px 20px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background-color: #c43235;
     display: flex;
+    z-index: 100;
 }
 
 #navbar {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+}
+
+#navbar a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar a:visited {
+    color: white;
+}
+
+#navbar a:hover {
+    color: lightgrey;
+    text-decoration: underline;
 }
 
 #logo {
@@ -24,4 +53,38 @@ body {
     background: white;
     border-radius: 50%;
     border: 5px solid gray;
+}
+
+#statistics {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5d0ce634311225.56cc3e1db55b0.gif");
+}
+
+#statistics ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#about_us {
+    background-image: url("https://i.gifer.com/2vYH.gif");
+}
+
+#goals {
+    background-image: url("https://i.gifer.com/GI1.gif");
+}
+
+#goals ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#goals ul img {
+    border-radius: 50%;
+    border: 5px solid #c43235;
+    max-width: 20%;
+    max-height: 20%;
 }
