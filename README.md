@@ -7,8 +7,8 @@ This website is founded on the idea that the more people are informed about food
 In addition, as Stevens students, there will be information on all there is to know about food at Stevens.
 
 ## Authors
-* **Cassie Ball** - 
+* **[Cassie Ball](https://github.com/cball35)** - 
 * **[Michael Chunko](https://github.com/MikeChunko)** - HTML, CSS 
-* **Andrea Meyer** - 
+* **[Andrea Meyer](https://github.com/ameyer2145)** - 
 * **[Sid Patel](https://github.com/Sypatel18)** - 
 * **[Ryan Qin](https://github.com/rqin00)** - 
