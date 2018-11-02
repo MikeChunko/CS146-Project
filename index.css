@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://timedotcom.files.wordpress.com/2016/07/mcdonalds-big-mac-venezuela.jpg");
+    background-size: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+#navigation {
+    background-color: lightcoral;
+    padding: 10px 20px;
+    display: flex;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 50px;
+    padding: 5px 5px;
+    margin-right: 10px;
+    background: white;
+    border-radius: 50%;
+    border: 5px solid gray;
+}
