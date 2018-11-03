@@ -60,3 +60,7 @@ div {
     border-radius: 50%;
     border: 5px solid gray;
 }
+
+#title {
+    background-image: url("https://www.collegeconsensus.com/wp-content/uploads/2018/03/stevens-institute.jpg")
+}

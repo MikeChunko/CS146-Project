@@ -60,3 +60,40 @@ div {
     border-radius: 50%;
     border: 5px solid gray;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    min-width: 66%;
+}
+
+td {
+    text-align: right;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+#title {
+    background-image: url("https://az589735.vo.msecnd.net/images/profilepics/1024117/101.jpg")
+}
+
+#pierce {
+    background-image: url("http://stevensdining.com/wp-content/uploads/2015/08/Pierce-Dining-Hall-Concept-Picture.jpg")
+}
+
+#exchange {
+    background-image: url("https://blazepress.com/.image/t_share/MTI5MzEyMDM0MzM5NzM1NTYy/delicious-food-cinemagraphs-1gif.gif")
+}
+
+#wsw {
+    background-image: url("http://www.urbanluxerealty.com/uploads/DSC_0097.JPG")
+}
+
+#duckbills {
+    background-image: url("https://theultralinx.com/.image/t_share/MTM3OTE1NzAxMDE2MTQzNzIz/tumblr_nm4ryogdlb1u9ooogo1_500gif.gif")
+}
