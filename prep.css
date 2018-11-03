@@ -96,6 +96,7 @@ tr:nth-child(even) {
     padding: 0;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #ingredients ul img {
