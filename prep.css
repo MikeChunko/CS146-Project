@@ -23,6 +23,17 @@ div {
     background-color: #c43235;
     display: flex;
     z-index: 100;
+    opacity: 0.6;
+}
+
+.navigation:hover {
+    opacity: 1;
+    transition: opacity .5s linear;
+}
+
+#navbar a:link {
+    color: white;
+    text-decoration: none;
 }
 
 #navbar {
@@ -30,11 +41,6 @@ div {
     align-items: center;
     justify-content: center;
     color: white;
-}
-
-#navbar a:link {
-    color: white;
-    text-decoration: none;
 }
 
 #navbar a:visited {
@@ -76,11 +82,14 @@ table, th, td {
     border: 1px solid white;
 }
 
-tr:nth-child(even) {background-color: #424242;}
+tr:nth-child(even) {
+    background-color: #424242;
+}
 
 #ingredients {
     background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/fb23c225029223.5633e1f22d4c9.gif")
 }
+
 #ingredients ul {
     list-style-type: none;
     margin: 0;
