@@ -68,3 +68,8 @@ div {
 input, textarea {
     border-radius: 10px;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
