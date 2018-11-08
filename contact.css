@@ -73,3 +73,35 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+
+.footer {
+    margin: 0;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    text-align: left
+}
+
+.footer ul ul {
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer a:visited {
+    color: white;
+}
+
+.footer a:hover {
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+#footer_contents {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
