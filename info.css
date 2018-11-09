@@ -71,11 +71,15 @@ table {
 }
 
 td {
-    text-align: right;
+    text-align: center;
 }
 
 table, th, td {
     border: 1px solid white;
+}
+
+th {
+    width: 154px;
 }
 
 #title {
@@ -86,17 +90,52 @@ table, th, td {
     background-image: url("http://stevensdining.com/wp-content/uploads/2015/08/Pierce-Dining-Hall-Concept-Picture.jpg")
 }
 
+#pierce_content, #exchange_content, #wsw_content, #duckbills_content {
+    width: 700px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pierce_content a{
+    color:yellow;
+}
+
 #exchange {
     background-image: url("https://blazepress.com/.image/t_share/MTI5MzEyMDM0MzM5NzM1NTYy/delicious-food-cinemagraphs-1gif.gif")
+}
+
+#exchange_content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #wsw {
     background-image: url("http://www.urbanluxerealty.com/uploads/DSC_0097.JPG")
 }
 
+#wsw_content ul {
+    padding: 10px, 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#wsw_content a{
+    color:yellow;
+}
+
 #duckbills {
     background-image: url("https://theultralinx.com/.image/t_share/MTM3OTE1NzAxMDE2MTQzNzIz/tumblr_nm4ryogdlb1u9ooogo1_500gif.gif")
 }
+
+#duckbills_content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 .footer {
     margin: 0;
@@ -129,3 +168,16 @@ table, th, td {
     flex-direction: row;
     justify-content: space-between
 }
+
+@media only screen and (min-width: 999px) {
+    /* Desktop */
+    }
+
+@media only screen and (max-width: 998px) and (min-width: 400px) {
+    /* Tablet */
+    }
+
+@media only screen and (max-width: 399px) {
+    /* Phone */
+
+    }
