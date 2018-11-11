@@ -43,6 +43,22 @@ div {
     text-decoration: none;
 }
 
+h2 {
+	text-align: center;
+}
+.infolinks {
+	list-style-type: none;
+	text-align: center;
+}
+
+.infolinks a:link {
+	color: yellow;
+}
+
+.infolinks a:visited {
+	color: white;
+}
+
 #navbar a:visited {
     color: white;
 }
