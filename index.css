@@ -81,11 +81,11 @@ div {
 }
 
 span {
-    background-color: yellow;
+    background-color: #c43235;
 }
 
 #about_us {
-    background-color: white;
+    background-image: url("https://ak5.picdn.net/shutterstock/videos/17233645/thumb/1.jpg");
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -98,6 +98,11 @@ span {
     font-size: 60px;
 }
 
+#about_us span{
+    background-color: #c43235;
+    color: black;
+}
+
 #about_us h2{
     margin: 10px;
     padding: 20px;
@@ -106,7 +111,7 @@ span {
 
 #about_us img {
     width: 60%;
-    height: 250px;
+    height: 10%;
     margin: 1px;
 }
 
@@ -116,7 +121,7 @@ span {
 }
 
 #goals {
-    background-color: lightgrey;
+    background-color: #2b2b2b;
 }
 
 #goals h1 {
@@ -126,7 +131,7 @@ span {
 
 #goals h2 {
     font-size: 25px;
-    color: black;
+    color: white;
 }
 
 #goals ul {
@@ -136,7 +141,7 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: black;
+    color: white;
 }
 
 #goals ul img {
@@ -150,7 +155,6 @@ span {
 #goals p {
     width: 290px;
 }
-
 
 .footer {
     margin: 0;
@@ -184,6 +188,19 @@ span {
     justify-content: space-between
 }
 #footer_contents li p img{
-    height: 18px;
-    width: 18px;
+    height: 20px;
+    width: 20px;
+}
+
+#footer_contents li ul li a img{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+}
+
+#footer_contents li ul{
+    display: flex;
+    flex-direction: row-reverse;
 }
