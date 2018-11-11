@@ -92,6 +92,8 @@ th {
 
 #pierce_content, #exchange_content, #wsw_content, #duckbills_content {
     width: 700px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -109,6 +111,13 @@ th {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#exchange_content a{
+    color:yellow;
 }
 
 #wsw {
@@ -120,6 +129,9 @@ th {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #wsw_content a{
@@ -134,6 +146,13 @@ th {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#duckbills_content a{
+    color:yellow;
 }
 
 
@@ -166,18 +185,5 @@ th {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-between;
 }
-
-@media only screen and (min-width: 999px) {
-    /* Desktop */
-    }
-
-@media only screen and (max-width: 998px) and (min-width: 400px) {
-    /* Tablet */
-    }
-
-@media only screen and (max-width: 399px) {
-    /* Phone */
-
-    }
