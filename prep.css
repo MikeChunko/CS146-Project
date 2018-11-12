@@ -68,6 +68,7 @@ div {
 }
 
 #title {
+    color: red;
     background-image: url("https://theultralinx.com/.image/t_share/MTM3OTE1NzAxMDE2MzQwMzMx/mti5mzeyndeymdi4ndc0njqygif.gif")
 }
 
@@ -99,16 +100,16 @@ tr:nth-child(even) {
 #ingredients ul {
     color: blue;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+}
+
+#ingredients ul li p {
+    background-color: white;
 }
 
 #ingredients ul img {
     width: 309px;
-    float: left;
     border-radius: 50%;
     border: 5px solid #c43235;
     max-width: 20%;
