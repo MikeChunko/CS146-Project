@@ -182,6 +182,10 @@ a:visited {
 }
 
 @media only screen and (max-width: 998px) and (min-width: 400px) {
+    #ingredients ul {
+        display: flex;
+        flex-direction: column;
+    }
     #footer_contents {
         font-size: 18px;
 
@@ -230,8 +234,12 @@ a:visited {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 399px) {
 /* For Phone: */
+    #ingredients ul {
+        display: flex;
+        flex-direction: column;
+    }
     #footer_contents {
         font-size: 12px;
     }

@@ -73,7 +73,6 @@ table {
     background-color: black;
     border-spacing: 5px;
     border-collapse: collapse;
-    min-width: 66%;
 }
 
 td {
@@ -241,6 +240,9 @@ th {
 }
 
 @media only screen and (max-width: 998px) and (min-width: 400px) {
+    #pierce_content, #exchange_content, #wsw_content, #duckbills_content {
+        width: 75%;
+    }
     #footer_contents {
         font-size: 18px;
 
@@ -289,8 +291,11 @@ th {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 399px) {
 /* For Phone: */
+    #pierce_content, #exchange_content, #wsw_content, #duckbills_content {
+        width: 75%;
+    }
     #footer_contents {
         font-size: 12px;
     }

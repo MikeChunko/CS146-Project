@@ -124,16 +124,6 @@ span {
     background-color: #2b2b2b;
 }
 
-#goals h1 {
-    font-size: 50px;
-    color: #c43235
-}
-
-#goals h2 {
-    font-size: 25px;
-    color: white;
-}
-
 #goals ul {
     list-style-type: none;
     margin: 10px;
@@ -213,7 +203,17 @@ span {
 }
 
 @media only screen and (max-width: 998px) and (min-width: 400px) {
-   
+    
+    #goals ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #goals p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .navigation {
         display: none;
     }
@@ -275,43 +275,23 @@ span {
 
     }
 
-    #goals ul img {
-        border-radius: 50%;
-        width: 150px;
-        height: 150px;
-        border: 2px solid black;
-
-    }
-    #goals p {
-        width: 240px;
-        font-size: 15px;
-        align-items: center;
-    }
-
-    #goals h1 {
-        font-size: 40px;
-        color: #c43235
-    }
-
-    #goals h2 {
-        font-size: 25px;
-        color: white;
-    }
-    #goals ul {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        color: white;
-    }
     #footer_contents {
         font-size: 18px;
 
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 399px) {
 /* For Phone: */
+    #goals ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #goals p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .navigation {
         display: none;
     }
@@ -373,35 +353,6 @@ span {
 
     }
 
-    #goals ul img {
-        border-radius: 50%;
-        width: 120px;
-        height: 120px;
-        border: 2px solid black;
-
-    }
-    #goals p {
-        width: 200px;
-        font-size: 15px;
-        align-items: center;
-    }
-
-    #goals h1 {
-        font-size: 35px;
-        color: #c43235
-    }
-
-    #goals h2 {
-        font-size: 20px;
-        color: white;
-    }
-    #goals ul {
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: white;
-    }
     #footer_contents {
         font-size: 12px;
 
