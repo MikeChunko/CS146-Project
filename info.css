@@ -73,7 +73,6 @@ table {
     background-color: black;
     border-spacing: 5px;
     border-collapse: collapse;
-    min-width: 66%;
 }
 
 td {
@@ -92,27 +91,27 @@ th {
     background-image: url("https://az589735.vo.msecnd.net/images/profilepics/1024117/101.jpg")
 }
 
-#title h1 span {
+#title h1 span{
     color: black;
     background-color: #c43235;
 }
 
-#pierce h2 span {
+#pierce h2 span{
     color: white;
     background-color: #c43235;
 }
 
-#exchange h2 span {
+#exchange h2 span{
     color: white;
     background-color: #c43235;
 }
 
-#wsw h2 span {
+#wsw h2 span{
     color: white;
     background-color: #c43235;
 }
 
-#duckbills h2 span {
+#duckbills h2 span{
     color: white;
     background-color: #c43235;
 }
@@ -130,8 +129,8 @@ th {
     margin-right: auto;
 }
 
-#pierce_content a {
-    color: yellow;
+#pierce_content a{
+    color:yellow;
 }
 
 #exchange {
@@ -147,8 +146,8 @@ th {
     justify-content: center;
 }
 
-#exchange_content a {
-    color: yellow;
+#exchange_content a{
+    color:yellow;
 }
 
 #wsw {
@@ -165,8 +164,8 @@ th {
     justify-content: center;
 }
 
-#wsw_content a {
-    color: yellow;
+#wsw_content a{
+    color:yellow;
 }
 
 #duckbills {
@@ -182,8 +181,8 @@ th {
     justify-content: center;
 }
 
-#duckbills_content a {
-    color: yellow;
+#duckbills_content a{
+    color:yellow;
 }
 
 .footer {
@@ -217,13 +216,12 @@ th {
     flex-direction: row;
     justify-content: space-between
 }
-
-#footer_contents li p img {
+#footer_contents li p img{
     height: 20px;
     width: 20px;
 }
 
-#footer_contents li ul li a img {
+#footer_contents li ul li a img{
     display: flex;
     justify-content: space-around;
     height: 25px;
@@ -231,28 +229,117 @@ th {
     padding: 10px;
 }
 
-#footer_contents li ul {
+#footer_contents li ul{
     display: flex;
     flex-direction: row-reverse;
 }
-
+.mobile_navigation {
+    display: none;
+}
 @media only screen and (min-width: 999px) {
 }
 
 @media only screen and (max-width: 998px) and (min-width: 400px) {
+    #pierce_content, #exchange_content, #wsw_content, #duckbills_content {
+        width: 75%;
+    }
     #footer_contents {
         font-size: 18px;
 
     }
-
+    .navigation {
+        display: none;
+    }
+    .mobile_navigation {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        position: sticky;
+        top: 0;
+        background-color: #c43235;
+        z-index: 100;
+    }
+    summary {
+        text-align: left;
+    }
+    #mobile_navbar_icon {
+        height: 20px;
+        width: 20px;
+        padding: 2px;
+        display: flex;
+    }
+    #mobile_navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: red;
+        font-size: 15px;
+        padding-left: 20%;
+    }
+    #mobile_navbar a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        padding-right: 40px;
+    }
+    #mobile_navbar a:visited {
+        color: white;
+    }
+    #mobile_navbar a:hover {
+        color: lightgrey;
+        text-decoration: underline;
+    }
 }
 
-@media only screen and (max-width: 768px) {
-    /* For Phone: */
+@media only screen and (max-width: 399px) {
+/* For Phone: */
+    #pierce_content, #exchange_content, #wsw_content, #duckbills_content {
+        width: 75%;
+    }
     #footer_contents {
         font-size: 12px;
-
     }
-
+    .navigation {
+        display: none;
+    }
+    .mobile_navigation {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        position: sticky;
+        top: 0;
+        background-color: #c43235;
+        z-index: 100;
+    }
+    summary {
+        text-align: left;
+    }
+    #mobile_navbar_icon {
+        height: 20px;
+        width: 20px;
+        padding: 2px;
+        display: flex;
+    }
+    #mobile_navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: red;
+        font-size: 15px;
+        padding-left: 20%;
+    }
+    #mobile_navbar a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        padding-right: 40px;
+    }
+    #mobile_navbar a:visited {
+        color: white;
+    }
+    #mobile_navbar a:hover {
+        color: lightgrey;
+        text-decoration: underline;
+    }
 }
 
