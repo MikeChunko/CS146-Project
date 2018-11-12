@@ -234,3 +234,24 @@ th {
     display: flex;
     flex-direction: row-reverse;
 }
+
+@media only screen and (min-width: 999px) {
+}
+
+@media only screen and (max-width: 998px) and (min-width: 400px) {
+#footer_contents {
+    font-size: 18px;
+
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+/* For Phone: */
+#footer_contents {
+    font-size: 12px;
+
+}
+
+}
+
