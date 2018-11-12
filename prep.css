@@ -8,22 +8,24 @@ body {
 }
 
 div {
-    padding: 50px;
-    margin-bottom: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 .navigation {
-    padding: 10px 20px;
+    padding: 5px 10px;
     margin: 0;
     position: sticky;
     top: 0;
     background-color: #c43235;
     display: flex;
     z-index: 100;
-    opacity: 0.6;
+    opacity: 0.95;
+    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .navigation:hover {
@@ -31,16 +33,19 @@ div {
     transition: opacity .5s linear;
 }
 
-#navbar a:link {
-    color: white;
-    text-decoration: none;
-}
-
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
     color: white;
+    font-size: 15px;
+    padding-left: 20%;
+}
+
+#navbar a:link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding-right: 40px;
 }
 
 #navbar a:visited {
@@ -53,33 +58,27 @@ div {
 }
 
 #logo {
-    width: 50px;
-    padding: 5px 5px;
+    width: 30px;
+    padding: 3px 3px;
     margin-right: 10px;
     background: white;
     border-radius: 50%;
-    border: 5px solid gray;
+    border: 2px solid gray;
+    align-content: flex-start;
 }
 
 #title {
-    background-image: url("http://photography.lookandcook.com/wp-content/uploads/2017/07/bbq.gif");
+    background-image: url("https://theultralinx.com/.image/t_share/MTM3OTE1NzAxMDE2MzQwMzMx/mti5mzeyndeymdi4ndc0njqygif.gif")
 }
 
 table {
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
-    border-spacing: 5px;
-    border-collapse: collapse;
-    min-width: 66%;
-}
-
-td {
-    text-align: right;
-}
-
-table, th, td {
+    padding: 5%;
     border: 1px solid white;
+    background-color: #737984;
+    width: 50%;
+    height: 50%;
 }
 
 tr:nth-child(even) {
@@ -118,6 +117,12 @@ tr:nth-child(even) {
     text-align: center;
 }
 
+td { 
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+}
+
 .footer {
     margin: 0;
     background-color: #171717;
@@ -148,4 +153,21 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: space-between
+}
+#footer_contents li p img{
+    height: 20px;
+    width: 20px;
+}
+
+#footer_contents li ul li a img{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+}
+
+#footer_contents li ul{
+    display: flex;
+    flex-direction: row-reverse;
 }
