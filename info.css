@@ -234,24 +234,107 @@ th {
     display: flex;
     flex-direction: row-reverse;
 }
-
+.mobile_navigation {
+    display: none;
+}
 @media only screen and (min-width: 999px) {
 }
 
 @media only screen and (max-width: 998px) and (min-width: 400px) {
-#footer_contents {
-    font-size: 18px;
+    #footer_contents {
+        font-size: 18px;
 
-}
-
+    }
+    .navigation {
+        display: none;
+    }
+    .mobile_navigation {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        position: sticky;
+        top: 0;
+        background-color: #c43235;
+        z-index: 100;
+    }
+    summary {
+        text-align: left;
+    }
+    #mobile_navbar_icon {
+        height: 20px;
+        width: 20px;
+        padding: 2px;
+        display: flex;
+    }
+    #mobile_navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: red;
+        font-size: 15px;
+        padding-left: 20%;
+    }
+    #mobile_navbar a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        padding-right: 40px;
+    }
+    #mobile_navbar a:visited {
+        color: white;
+    }
+    #mobile_navbar a:hover {
+        color: lightgrey;
+        text-decoration: underline;
+    }
 }
 
 @media only screen and (max-width: 768px) {
 /* For Phone: */
-#footer_contents {
-    font-size: 12px;
-
-}
-
+    #footer_contents {
+        font-size: 12px;
+    }
+    .navigation {
+        display: none;
+    }
+    .mobile_navigation {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        position: sticky;
+        top: 0;
+        background-color: #c43235;
+        z-index: 100;
+    }
+    summary {
+        text-align: left;
+    }
+    #mobile_navbar_icon {
+        height: 20px;
+        width: 20px;
+        padding: 2px;
+        display: flex;
+    }
+    #mobile_navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: red;
+        font-size: 15px;
+        padding-left: 20%;
+    }
+    #mobile_navbar a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        padding-right: 40px;
+    }
+    #mobile_navbar a:visited {
+        color: white;
+    }
+    #mobile_navbar a:hover {
+        color: lightgrey;
+        text-decoration: underline;
+    }
 }
 
