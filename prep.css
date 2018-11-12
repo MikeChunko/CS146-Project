@@ -102,14 +102,16 @@ tr:nth-child(even) {
     list-style-type: none;
     margin: auto;
     padding: auto;
+    display: flex;
+    align-items: flex-start;
 }
 
 #ingredients ul li p {
+    margin-right: 1em;
     background-color: white;
 }
 
 #ingredients ul img {
-    width: 309px;
     border-radius: 50%;
     border: 5px solid #c43235;
     max-width: 20%;
@@ -142,7 +144,7 @@ tr:nth-child(even) {
 }
 
 a:visited {
-    color: yellow;
+    color: green;
 }
 
 .footer a:hover {
