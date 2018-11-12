@@ -136,3 +136,31 @@ td {
     display: flex;
     flex-direction: row-reverse;
 }
+
+@media only screen and (min-width: 999px) {
+}
+#quiz_form{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 998px) and (min-width: 400px) {
+#footer_contents {
+    font-size: 18px;
+
+}
+#quiz_form{
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+/* For Phone: */
+#footer_contents {
+    font-size: 12px;
+
+}
+#quiz_form{
+    font-size: 12px;
+}
+
+}
