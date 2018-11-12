@@ -91,6 +91,7 @@ tr:nth-child(even) {
 }
 
 #ingredients ul {
+    color: blue;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -100,14 +101,21 @@ tr:nth-child(even) {
 }
 
 #ingredients ul img {
+    width: 309px;
+    float: left;
     border-radius: 50%;
     border: 5px solid #c43235;
     max-width: 20%;
     max-height: 20%;
 }
 
-#recipes ol {
+#recipes {
     list-style-position: inside;
+    text-align: left;
+}
+
+#recipes h2 {
+    text-align: center;
 }
 
 .footer {
@@ -126,8 +134,8 @@ tr:nth-child(even) {
     justify-content: flex-end;
 }
 
-.footer a:visited {
-    color: white;
+a:visited {
+    color: yellow;
 }
 
 .footer a:hover {
