@@ -7,8 +7,8 @@ This website is founded on the idea that the more people are informed about food
 In addition, as Stevens students, there will be information on all there is to know about food at Stevens.
 
 ## Authors
-* **[Cassie Ball](https://github.com/cball35)** - Food Quiz, Contact Us
+* **[Cassie Ball](https://github.com/cball35)** - Food Quiz, Contact Us Pages
 * **[Michael Chunko](https://github.com/MikeChunko)** - HTML, CSS 
-* **[Andrea Meyer](https://github.com/ameyer2145)** - Stevens Meal Info
+* **[Andrea Meyer](https://github.com/ameyer2145)** - Stevens Meal Info Page
 * **[Sid Patel](https://github.com/Sypatel18)** - Home Page
 * **[Ryan Qin](https://github.com/rqin00)** - Meal Prep Page
