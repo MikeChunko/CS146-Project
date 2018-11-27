@@ -8,7 +8,7 @@ In addition, as Stevens students, there will be information on all there is to k
 
 ## Authors
 * **[Cassie Ball](https://github.com/cball35)** - Food Quiz, Contact Us Pages
-* **[Michael Chunko](https://github.com/MikeChunko)** - HTML, CSS 
+* **[Michael Chunko](https://github.com/MikeChunko)** - General HTML, CSS, and JS 
 * **[Andrea Meyer](https://github.com/ameyer2145)** - Stevens Meal Info Page
 * **[Sid Patel](https://github.com/Sypatel18)** - Home Page
 * **[Ryan Qin](https://github.com/rqin00)** - Meal Prep Page
