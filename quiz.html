@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Stevens Food Website</title>
     <link rel="stylesheet" href="quiz.css"/>
+    <script type="text/javascript" src="quiz.js"></script>
 </head>
 <body>
 <div class="navigation">
@@ -12,11 +13,11 @@
              alt="Stevens logo" id="logo">
     </a>
     <nav id="navbar">
-            <a href="index.html">HOME</a>
-            <a href="prep.html">MEAL PREP</a>
-            <a href="info.html">STEVENS MEAL INFO</a>
-            <a href="quiz.html">FOOD QUIZ</a>
-            <a href="contact.html">CONTACT US</a>
+        <a href="index.html">HOME</a>
+        <a href="prep.html">MEAL PREP</a>
+        <a href="info.html">STEVENS MEAL INFO</a>
+        <a href="quiz.html">FOOD QUIZ</a>
+        <a href="contact.html">CONTACT US</a>
     </nav>
 </div>
 <details class="mobile_navigation">
@@ -36,7 +37,7 @@
 </div>
 
 <div id="quiz_form">
-    <form action="#" method="get">
+    <form id="quiz" action="#" method="get">
         <table>
             <tr>
                 <th>Meal Prep: (2 Questions)</th>
@@ -62,7 +63,7 @@
                     <label><input type="radio" name="meal_prep_2" value="answer1">
                         One of the Stevens' cooks</label><br>
                     <label><input type="radio" name="meal_prep_2" value="answer2">
-                        The Stevens' dietician</label><br>
+                        The Stevens' dietitian</label><br>
                     <label><input type="radio" name="meal_prep_2" value="answer3">
                         A professor at Stevens</label><br>
                     <label><input type="radio" name="meal_prep_2" value="answer4">
@@ -91,7 +92,7 @@
             <tr>
                 <td>
                     2) What place in Hoboken accept DuckBills as payment?<br>
-                    <label><input type="radio" name="food_guide2" value="answer1">
+                    <label><input type="radio" name="food_guide_2" value="answer1">
                         Benny Tudino's</label><br>
                     <label><input type="radio" name="food_guide_2" value="answer2">
                         Dunkin' Donuts</label><br>
