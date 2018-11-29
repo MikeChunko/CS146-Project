@@ -126,6 +126,17 @@ tr:nth-child(even) {
     text-align: center;
 }
 
+
+#dietDiv {
+	text-align:center;
+	background-color: #737984;
+}
+
+#dietDiv img {
+	max-width: 50%;
+	min-width: 50%;
+}
+
 .footer {
     margin: 0;
     background-color: #171717;
