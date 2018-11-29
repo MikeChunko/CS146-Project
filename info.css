@@ -29,7 +29,7 @@ div {
 
 .navigation:hover {
     opacity: 1;
-    transition: opacity .5s linear;
+    transition: .5s linear;
 }
 
 #navbar {
@@ -87,7 +87,7 @@ th {
 }
 
 #title {
-    background-image: url("https://az589735.vo.msecnd.net/images/profilepics/1024117/101.jpg")
+    background-image: url("https://az589735.vo.msecnd.net/images/profilepics/1024117/101.jpg");
 }
 
 #title h1 span{
@@ -116,7 +116,7 @@ th {
 }
 
 #pierce {
-    background-image: url("http://stevensdining.com/wp-content/uploads/2015/08/Pierce-Dining-Hall-Concept-Picture.jpg")
+    background-image: url("http://stevensdining.com/wp-content/uploads/2015/08/Pierce-Dining-Hall-Concept-Picture.jpg");
 }
 
 #pierce_content, #exchange_content, #wsw_content, #duckbills_content {
@@ -133,7 +133,7 @@ th {
 }
 
 #exchange {
-    background-image: url("https://blazepress.com/.image/t_share/MTI5MzEyMDM0MzM5NzM1NTYy/delicious-food-cinemagraphs-1gif.gif")
+    background-image: url("https://blazepress.com/.image/t_share/MTI5MzEyMDM0MzM5NzM1NTYy/delicious-food-cinemagraphs-1gif.gif");
 }
 
 #exchange_content ul {
@@ -150,7 +150,7 @@ th {
 }
 
 #wsw {
-    background-image: url("http://www.urbanluxerealty.com/uploads/DSC_0097.JPG")
+    background-image: url("http://www.urbanluxerealty.com/uploads/DSC_0097.JPG");
 }
 
 #wsw_content ul {
@@ -167,7 +167,7 @@ th {
 }
 
 #duckbills {
-    background-image: url("https://theultralinx.com/.image/t_share/MTM3OTE1NzAxMDE2MTQzNzIz/tumblr_nm4ryogdlb1u9ooogo1_500gif.gif")
+    background-image: url("https://theultralinx.com/.image/t_share/MTM3OTE1NzAxMDE2MTQzNzIz/tumblr_nm4ryogdlb1u9ooogo1_500gif.gif");
 }
 
 #duckbills_content ul {
@@ -188,7 +188,7 @@ th {
     background-color: #171717;
     display: flex;
     flex-direction: column;
-    text-align: left
+    text-align: left;
 }
 
 .footer ul ul {
@@ -212,7 +212,7 @@ th {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-between;
 }
 #footer_contents li p img{
     height: 20px;

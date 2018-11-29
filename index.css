@@ -29,7 +29,7 @@ div {
 
 .navigation:hover {
     opacity: 1;
-    transition: opacity .5s linear;
+    transition: .5s linear;
 }
 
 #navbar {
@@ -150,7 +150,7 @@ span {
     background-color: #171717;
     display: flex;
     flex-direction: column;
-    text-align: left
+    text-align: left;
 }
 
 .footer ul ul {
@@ -266,7 +266,7 @@ span {
     font-size: 13px;
     margin: 90px;
     padding: 90px;
-        }
+    }
 
     #about_us {
         width: 100%;
