@@ -143,3 +143,4 @@ function feedback(correct, total) {
 
     document.querySelector("form table").insertBefore(new_text, null);
 }
+
