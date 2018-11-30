@@ -58,9 +58,9 @@ function handleFormSubmit(event) {
             // The correct response is the 3rd button, "Bread, Cereal, Rice & Pasta"
             if (i === 2) {
                 correct_count++;
-                correct_response(q1[i])
+                correct_response(q1[i]);
             } else
-                wrong_response(q1[i])
+                wrong_response(q1[i]);
         }
     }
 
@@ -69,9 +69,9 @@ function handleFormSubmit(event) {
             // The correct response is the 2nd button, "The Stevens' dietitian"
             if (i === 1) {
                 correct_count++;
-                correct_response(q2[i])
+                correct_response(q2[i]);
             } else
-                wrong_response(q2[i])
+                wrong_response(q2[i]);
         }
     }
 
@@ -80,9 +80,9 @@ function handleFormSubmit(event) {
             // The correct response is the 1sd button, "Free food from certain restaurants in exchange for a meal swipe"
             if (i === 0) {
                 correct_count++;
-                correct_response(q3[i])
+                correct_response(q3[i]);
             } else
-                wrong_response(q3[i])
+                wrong_response(q3[i]);
         }
     }
 
@@ -91,9 +91,9 @@ function handleFormSubmit(event) {
             // The correct response is the 4th button, "All of the above"
             if (i === 3) {
                 correct_count++;
-                correct_response(q4[i])
+                correct_response(q4[i]);
             } else
-                wrong_response(q4[i])
+                wrong_response(q4[i]);
         }
     }
 
@@ -161,20 +161,14 @@ function feedback(correct, total) {
 
     if (percentage <= .25)
         new_text.innerHTML += "You really need to work on your skills.";
-    else {
-        if (percentage <= .5)
-            new_text.innerHTML += "You certainly have room to improve.";
-        else {
-            if (percentage <= .75)
-                new_text.innerHTML += "Not too shabby.";
-            else {
-                if (percentage < 1)
-                    new_text.innerHTML += "You're pretty good at this.";
-                else
-                    new_text.innerHTML += "You're an expert!";
-            }
-        }
-    }
+    else if (percentage <= .5)
+        new_text.innerHTML += "You certainly have room to improve.";
+    else if (percentage <= .75)
+        new_text.innerHTML += "Not too shabby.";
+    else if (percentage < 1)
+        new_text.innerHTML += "You're pretty good at this.";
+    else
+        new_text.innerHTML += "You're an expert!";
 
     document.querySelector("form table").insertBefore(new_text, null);
 }
